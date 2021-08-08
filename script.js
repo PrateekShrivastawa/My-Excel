@@ -75,4 +75,17 @@ $(document).ready(function () {
             $(this).addClass("selected");
         }
     });
+    $(".input-cell").dblclick(function () {
+        $(".input-cell.selected").removeClass("selected");
+        $(this).addClass("selected");
+        $(this).attr("contenteditable", "true");
+        $(this).focus();
+    });
+    $(".input-cell").blur(function(){
+        $(".input-cell.selected").attr("contenteditable","false"); 
+    })
+    $(".input-cell-container").scroll(function () {
+        $(".column-name-container").scrollLeft(this.scrollLeft);
+        $(".row-name-container").scrollTop(this.scrollTop);
+    });
 });
