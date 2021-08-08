@@ -52,3 +52,19 @@ body{
     display: flex;
     align-items: center;
 }
+.menu-icon:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.selector option:hover{
+    background-color: lightgrey;
+}
+.font-family-selector{
+    height: 30px;
+    font-size: 18px;
+    width: 150px;
+}
+.font-size-selector{
+    height: 30px;
+    font-size: 18px;
+}
