@@ -3,3 +3,6 @@ body{
     overflow: hidden;
     font-size: 14;
 }
+.container{
+    height: 100vh;
+}
