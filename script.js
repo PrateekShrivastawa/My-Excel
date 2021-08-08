@@ -95,3 +95,16 @@ function getrowcol(ele) {
     let colId = parseInt(idArray[3]);
     return [rowId, colId];
 }
+function updateCell(property,value){
+    $(".input-cell.selected").each(function(){
+        $(this).css(property,value);
+    })
+}
+$(".icon-bold").click(function(){
+    if($(this).hasClass("selected")){
+        updateCell("font-weight","");
+    }
+    else{
+        updateCell("font-weight","bold");
+    }
+});
