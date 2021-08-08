@@ -96,3 +96,15 @@ body{
     display: flex;
     overflow: hidden;
 }
+.row-name-container {
+    width: 30px;
+    height: calc(75vh - 30px);
+    border: 1px solid lightgrey;
+    overflow: hidden;
+}
+.input-cell-container{
+    width: calc(100vw - 30px);
+    height: calc(75vh - 30px);
+    border: 1px solid lightgrey;
+    overflow: scroll;
+}
