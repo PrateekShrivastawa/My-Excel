@@ -116,3 +116,11 @@ $(".icon-underline").click(function(){
         updateCell("text-decoration","underline");
     }
 });
+$(".icon-italic").click(function(){
+    if($(this).hasClass("selected")){
+        updateCell("font-style","");
+    }
+    else{
+        updateCell("font-style","italic");
+    }
+});
