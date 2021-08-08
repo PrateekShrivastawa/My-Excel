@@ -39,3 +39,16 @@ body{
     background-color: #fff;
     cursor: default;
 }
+.menu-icon-bar{
+    height: 6vh;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+.menu-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
