@@ -108,3 +108,13 @@ body{
     border: 1px solid lightgrey;
     overflow: scroll;
 }
+.sheet-bar{
+    height: 4vh;
+    display: flex;
+}
+.scroller{
+    width: 70px;
+}
+.icon-left-scroll,.icon-right-scroll{
+    font-size: 30px;
+}
