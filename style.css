@@ -27,3 +27,15 @@ body{
     display: flex;
     align-items: center;
 }
+.menu-item.selected{
+    background-color: #fff;
+    color: #107c41;
+}
+.menu-item:hover{
+    background-color: #0c5e31;
+    cursor: pointer;
+}
+.menu-item.selected:hover{
+    background-color: #fff;
+    cursor: default;
+}
