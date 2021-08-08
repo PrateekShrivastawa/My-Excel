@@ -6,3 +6,11 @@ body{
 .container{
     height: 100vh;
 }
+.title-bar{
+    height:5vh;
+    background-color: #107c41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
