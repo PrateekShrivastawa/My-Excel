@@ -108,3 +108,11 @@ $(".icon-bold").click(function(){
         updateCell("font-weight","bold");
     }
 });
+$(".icon-underline").click(function(){
+    if($(this).hasClass("selected")){
+        updateCell("text-decoration","");
+    }
+    else{
+        updateCell("text-decoration","underline");
+    }
+});
