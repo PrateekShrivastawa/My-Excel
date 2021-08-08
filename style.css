@@ -68,3 +68,19 @@ body{
     height: 30px;
     font-size: 18px;
 }
+.selector option{
+    font-size: 18px;
+}
+.formula-bar{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: rgb(241, 241, 241);
+}
+.data-container{
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
